@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     implementation("org.apache.groovy:groovy:4.0.2")
+    implementation("com.google.code.findbugs:jsr305:3.0.2")
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
