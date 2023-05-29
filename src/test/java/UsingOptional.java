@@ -25,6 +25,7 @@ public class UsingOptional {
         if (optionalPerson.isEmpty()) {
             return;
         }
+        Person person = optionalPerson.get();
     }
 
     // ✅
@@ -32,6 +33,7 @@ public class UsingOptional {
         Optional<Person> optionalPerson = getPerson();
         if (optionalPerson.isPresent()) {
             // do actual work!
+            Person person = optionalPerson.get();
         }
     }
 

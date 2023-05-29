@@ -1,5 +1,8 @@
 import javax.annotation.Nonnull;
 
+// whose nonnull? jsr305, lombok, spring, etc.
+// who enforces? ide, findbugs, checker, lombok, etc.
+// when compile-time (✅), run-time(❌)?
 class UsingAnnotations {
 
     class ProductType {
@@ -26,9 +29,6 @@ class UsingAnnotations {
         }
     }
 
-    // whose nonnull? jsr305, lombok, spring, etc.
-    // who enforces? ide, findbugs, checker, etc.
-    // but not runtime!
     @Nonnull
     ProductType getProductType(@Nonnull LineItem lineItem) {
         return lineItem.product.productType;

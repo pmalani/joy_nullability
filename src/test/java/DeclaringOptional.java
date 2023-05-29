@@ -33,7 +33,7 @@ public class DeclaringOptional {
     static class Customer1 {
         // ❌
         // Don't use optional as field
-        // (Okay in unit tests when testing the return value)
+        // (Okay in unit tests when testing an optional return value)
         Optional<Person> person;
     }
 
