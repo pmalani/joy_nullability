@@ -10,11 +10,16 @@ class Yoda {
 
     // ✅
     boolean isBart2(String name) {
+        return name != null && name.equals("Bart");
+    }
+
+    // ✅
+    boolean yoda(String name) {
         return "Bart".equals(name);
     }
 
     // ✅✅
-    boolean isBart3(String name) {
+    boolean objectsEquals(String name) {
         return Objects.equals(name, "Bart");
     }
 
