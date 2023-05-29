@@ -10,6 +10,7 @@
       1. [DeclaringOptional](src/test/java/DeclaringOptional.java)
       2. [CreatingOptional](src/test/java/CreatingOptional.java)
       3. [UsingOptional](src/test/java/UsingOptional.java)
+      4. [UsingOptionalOrElse](src/test/java/UsingOptionalOrElse.java)
 4. Language Supported
    1. [Elvis](src/test/groovy/Elvis.groovy)
    2. [Using safe navigation](src/test/groovy/UsingSafeNavigation.groovy)
